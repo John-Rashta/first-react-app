@@ -5,9 +5,10 @@ import App from './App.jsx';
 import Greeting from './Greeting.jsx';
 import {Food} from './Food.jsx';
 import {TestTitle} from './TestTitle.jsx';
+import {Person} from './Person.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <TestTitle />
+    <Person />
   </StrictMode>,
 );
